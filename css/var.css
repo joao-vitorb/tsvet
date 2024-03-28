@@ -1,0 +1,11 @@
+:root {
+    --azul-principal: rgb(59, 144, 255);
+    --preto: black;
+    --branco: white;
+    --letra-branca: #fff2e7;
+    --letra-cinza: #fff2e780;
+    --fundo-cinza: rgb(245, 243, 243);
+    --cinza-escuro: rgb(53, 53, 53);
+    --azul-secundario: rgb(36, 84, 146);
+    --letra-branca-secundaria: #dfdfdf;
+}

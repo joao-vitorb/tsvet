@@ -1,0 +1,121 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.servicos-escrita {
+    text-align: center;
+}
+
+.servicos-escrita-titulo {
+    color: var(--preto);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.9rem;
+    margin-top: 7rem;
+}
+
+.servicos-escrita-subtitulo {
+    color: var(--cinza-escuro);
+}
+
+.servicos-escrita hr {
+    margin: 1rem 40rem;
+}
+
+.servicos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.servico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    gap: 1rem;
+    width: 15%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.1);
+}
+
+.servico img {
+    width: 130px;
+}
+
+.saiba-mais {
+    text-align: center;
+}
+
+.botao-saibamais {
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+    
+    color: var(--azul-secundario);
+    background: var(--branco);
+    border: 2px solid var(--azul-secundario);
+    cursor: pointer;
+    margin-bottom: 4rem;
+}
+
+.botao-saibamais:hover {
+    background-color: var(--azul-principal);
+    border: 2px solid var(--azul-principal);
+    color: white;
+    border-radius: 0.5rem;
+    transition: all 0.4s;
+}
+
+.botao-saibamais a:hover {
+    color: var(--branco);
+}
+
+.servico-descricao {
+    color: var(--cinza-escuro);
+    font-size: 14px;
+    text-align: center;
+}
+
+.servico hr {
+    width: 70%;
+}
+
+.servico-titulo {
+    text-wrap: nowrap;
+    font-size: 1rem;
+}
+
+.botao-saibamais a {
+    color: var(--azul-secundario);
+}
+
+@media only screen and (max-width: 768px) {
+    .servicos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servico {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .servicos-escrita-titulo {
+        font-size: 1.5rem;
+    }
+
+    .servico {
+        width: 90%;
+    }
+}

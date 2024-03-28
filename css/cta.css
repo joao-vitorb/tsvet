@@ -1,0 +1,149 @@
+.cta {
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.cta-container {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.cta-conteudo {
+    float: left;
+    width: 55%;
+}
+
+.cta-imagem {
+    float: right;
+    width: 40%;
+}
+
+.cta-imagem img {
+    width: 100%;
+    height: auto;   
+}
+
+.cta-conteudo .cta-titulo {
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.cta-conteudo .cta-texto h3 {
+    margin-top: 1rem;
+    color: var(--cinza-escuro);
+    font-size: 19px;
+}
+
+.cta-conteudo .cta-texto p {
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.cta-social {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+    gap: 0.5rem;
+    border-radius: 100%;
+}
+
+.cta-social .cta-link {
+    background-color: var(--azul-principal);
+    border-radius: 50%;
+}
+
+.cta-link:hover {
+    transition: all 0.4s;
+    background-color: var(--azul-secundario);
+}
+
+.cta-social i {
+    width: 30px;
+    text-align: center;
+    padding: 0.5rem 0;
+    color: white;
+}
+
+.cta .cta-texto .cta-btn {
+    margin-top: 30px;
+}
+
+.cta .cta-texto .cta-btn a {
+    background-color: var(--azul-principal);
+    padding: 12px 40px;
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 25px;
+    letter-spacing: 1.5;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.cta .cta-texto .cta-btn a:hover {
+    color: var(--azul-principal);
+    background-color: transparent;
+    border: solid 1px var(--azul-principal);
+    border-radius: 0.5rem;
+    transition: background 0.2s;
+}
+
+.cta hr {
+    width: 15%;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .cta-container {
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+    .cta-conteudo {
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    .cta-imagem {
+        float: none;
+        width: 100%;
+    }
+
+    .cta-imagem img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+        padding-top: 1.5rem;
+    }
+
+    .cta-conteudo .cta-titulo {
+        text-align: center;
+        font-size: 19px;
+    }
+
+    .cta .cta-texto .cta-btn {
+        text-align: center;
+    }
+
+    .cta .cta-texto .cta-btn a {
+        padding: 9px 30px;
+    }
+
+    .cta .cta-social {
+        display: none;
+    }
+
+    .cta hr {
+        width: auto;
+        margin-top: 1rem;
+    }
+}
