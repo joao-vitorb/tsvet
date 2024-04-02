@@ -105,9 +105,17 @@
 
 
 @media screen and (max-width: 605px) {
-    .loc-mapa,
     .loc-mapa-g {
         display: none;
+    }
+    
+    .loc-mapa {
+        display: block;
+        width: 100%;
+        margin: auto;
+        padding-top: 1.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 }
 

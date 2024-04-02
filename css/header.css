@@ -88,4 +88,15 @@
         display: none;
     }
 
+    .navbar-logo {
+        width: 10rem;
+        margin: auto;
+    }
+
+}
+
+@media screen and (max-width: 417px) {
+    .navbar {
+        margin-bottom: -4rem;
+    }
 }

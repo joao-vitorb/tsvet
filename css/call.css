@@ -45,7 +45,6 @@
 .button__text a {
 	display: inline-flex;
 	align-items: center;
-	padding: 0 24px;
 	color: #fff;
 	height: 100%;
 }
@@ -55,8 +54,22 @@
 	background: rgba(0, 0, 0, 0.08);
 }
 
-@media only screen and (max-width: 1124px) {
+@media screen and (max-width: 530px) {
+	
 	.botao-container {
-		margin-left: 1rem;
+		margin: auto;
+		transform: translate(5%, -200%);
+	}
+}
+
+@media screen and (max-width: 475px) {
+	
+	.botao-container {
+		margin: auto;
+		transform: translate(5%, -150%);
+	}
+
+	.button__icon {
+		display: none;
 	}
 }

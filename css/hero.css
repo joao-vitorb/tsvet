@@ -87,4 +87,12 @@ hr {
         max-width: 45%;
         column-count: 1;
     }
+
+    .hero-conteudo h1 {
+        font-size: 2rem;
+    }
+
+    .hero-subtitulo {
+        font-size: 1.3rem;
+    }
 }
