@@ -21,3 +21,10 @@
   color: var(--branco);
   margin-top: 14px;
 } 
+
+@media screen and (max-width: 475px) {
+	
+	.wpp-link {
+    display: none;
+  }
+}

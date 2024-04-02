@@ -96,3 +96,24 @@ hr {
         font-size: 1.3rem;
     }
 }
+
+@media screen and (max-width: 418px) {
+    .hero-imagens-container {
+        display: none;
+    }
+    
+    .hero-imagem {
+        display: none;
+    }
+
+    .hero-conteudo h1 {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: -7rem;
+    }
+
+    .hero-subtitulo {
+        text-align: center;
+        font-size: 1.3rem;
+    }
+}
